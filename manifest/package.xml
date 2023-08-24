@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>AccountTriggerTest</members>
+        <members>TeamMemberTriggerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>AccountTrigger</members>
+		<members>TeamMemberTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>SQX_Team_Members__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>SQX_Team_Members__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Account_Admin</members>
+		<name>PermissionSet</name>
+	</types>
+	<version>55.0</version>
+</Package>
